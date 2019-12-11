@@ -15,7 +15,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*.js": "eslint"
+    "src/**/*.js": "eslint --fix"
   },
   "keywords": [],
   "author": "",
