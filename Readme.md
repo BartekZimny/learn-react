@@ -1,1 +1,1 @@
-https://bz-learn-react.herokuapp.com/
+https://kodilla-bz-learn-react.herokuapp.com
