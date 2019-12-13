@@ -1,6 +1,12 @@
 export const settings = {
   columnCreatorText: 'Add new column',
   cardCreatorText: 'Add new card',
+  header: {
+    icon: 'rocket',
+    homeTitle: 'Home',
+    infoTitle: 'Info',
+    faqTitle: 'FAQ',
+  },
   creator: {
     buttonOK: 'OK',
     buttonCancel: 'Cancel',
@@ -70,6 +76,18 @@ export const listData = {
       ],
     },
   ],
+};
+
+export const infoData = {
+  title: 'Page Info',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  content: 'Some information about Single Page Application',
+};
+
+export const faqData = {
+  title: 'Page FAQ',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  content: 'Frequently Asked Questions about Single Page Application',
 };
 
 const lists = [

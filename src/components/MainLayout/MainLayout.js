@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 
 const MainLayout = ({children}) => (
   <div>
-      <Header />
+    <Header />
     {children}
   </div>
 );
