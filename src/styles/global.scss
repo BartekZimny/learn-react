@@ -1,6 +1,8 @@
-@import './settings.scss';
+@import "./settings.scss";
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -12,6 +14,7 @@ body {
   font-size: ($base-size * 1.1);
   color: $color-light;
   letter-spacing: 0.5px;
+  overflow-y: scroll;
 }
 
 :global(.container) {
